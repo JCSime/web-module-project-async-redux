@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --open",
-    "test": "cross-env NODE_ENV=testing jest --verbose --forceExit"
+    "test": "cross-env NODE_ENV=testing jest --verbose --forceExit",
+    "homepage": "."
   },
   "devDependencies": {
     "@babel/core": "7.16.0",
@@ -45,6 +46,8 @@
     "react-redux": "^7.2.6",
     "react-router-dom": "5.2.0",
     "redux": "^4.1.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.4.1",
     "sass": "^1.32.8",
     "style-loader": "^3.3.1",
     "styled-components": "5.3.3",
