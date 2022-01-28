@@ -3,11 +3,10 @@
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-},
+    "start": "webpack serve --open",
+    "test": "cross-env NODE_ENV=testing jest --verbose --forceExit",
+    "homepage": "."
+  },
   "devDependencies": {
     "@babel/core": "7.16.0",
     "@babel/plugin-transform-react-jsx": "7.16.0",
